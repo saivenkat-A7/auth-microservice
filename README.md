@@ -9,7 +9,6 @@ This project implements a **secure, containerized authentication microservice** 
 - **Docker containerization** with persistent storage and cron job for automated logging  
 - REST API endpoints for decryption, 2FA generation, and verification  
 
-> ⚠️ Note: This project is for educational purposes. Do not use the keys in production.
 
 ---
 
