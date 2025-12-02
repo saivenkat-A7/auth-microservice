@@ -1,0 +1,16 @@
+# Sensitive encrypted seed
+encrypted_seed.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# IDE/editor config
+.vscode/
+.idea/
+
+# Logs (optional)
+/cron/cron.log

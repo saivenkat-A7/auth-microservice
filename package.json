@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "axios": "^1.13.2",
+    "express": "^5.1.0",
+    "hi-base32": "^0.5.1",
+    "otplib": "^12.0.1",
+    "rfc4648": "^1.5.4"
+  },
+  "name": "auth-microservice",
+  "version": "1.0.0",
+  "description": "\"# Auth Microservice\"",
+  "main": "decrypt_seed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saivenkat-A7/auth-microservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saivenkat-A7/auth-microservice/issues"
+  },
+  "homepage": "https://github.com/saivenkat-A7/auth-microservice#readme"
+}
