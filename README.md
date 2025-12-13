@@ -30,14 +30,18 @@ This project implements a **secure, containerized authentication microservice** 
 | GET    | `/generate-2fa`  | Generates current TOTP 2FA code           |
 | POST   | `/verify-2fa`    | Verifies a given TOTP code                |
 
-# Build Docker image
-docker-compose build
+## Docker Build and Run commands
+```
 
-# Start containers in detached mode
-docker-compose up -d
+docker build -t testapp .
+docker run -p 8080:8080 testapp
+```
+
 
 # Check running containers
+```
 docker ps
+```
 
 
 **Example**:
