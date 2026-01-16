@@ -33,8 +33,8 @@ This project implements a **secure, containerized authentication microservice** 
 ## Docker Build and Run commands
 ```
 
-docker build -t testapp .
-docker run -p 8080:8080 testapp
+docker-compose build
+docker-compose up -d
 ```
 
 
